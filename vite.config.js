@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// REPLACE 'popx-assignment-react' WITH YOUR EXACT REPO NAME
 export default defineConfig({
   plugins: [react()],
+  base: '/popx-assignment-react/', 
 })
